@@ -1,0 +1,107 @@
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    background-color: #000;
+    margin: 0;
+    opacity: 0.9;
+}
+nav{
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    z-index: 10;
+    background-color: #000;
+    width: 100%;
+    /*overflow: hidden;*/
+}
+nav img{
+    margin-left: 10px;
+    color: seashell;
+}
+.nav-right{
+     
+}
+nav a{
+    color: seashell;
+    padding: 0 10px;
+}
+nav a:hover{
+    text-decoration: none;
+}
+main{
+    position: relative;
+    top: 69px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.mission{
+    background-image: url('img-mission-background.jpg');
+    height: 700px;
+    width: 1200px;
+    color: seashell;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.mission-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #000;
+}
+.mission h2, h4{
+    margin: 10px auto;
+}
+.feature{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1000px;
+    color: seashell;
+}
+.feature h2{
+    text-align: center;
+}
+.feature-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.feature-container figure{
+    margin: 15px;
+}
+figcaption{
+    margin-top: 10px;
+    text-align: center;
+}
+.location{
+    background-image: url('img-locations-background.jpg');
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    color: seashell;
+}
+.location-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.location-card{
+    background-color: #000;
+    width: 300px;
+    text-align: center;
+}
