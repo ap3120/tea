@@ -104,4 +104,15 @@ figcaption{
     background-color: #000;
     width: 300px;
     text-align: center;
+    margin: 20px;
+}
+.bottom-container{
+    text-align: center;
+    justify-content: center;
+    color: seashell;
+}
+footer{
+    margin-left: 20px;
+    color: seashell;
+    font-size: 0.7em;
 }
